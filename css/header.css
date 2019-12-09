@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+header{
+  width: 100%;
+  height: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+header nav{
+  width: 31%;
+}
+
+header .a-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 43px;
+  font-size: 15px;
+}
+
+
+
+main img{
+  width: 100%;
+  position: relative;
+}
+
+main p {
+  top: 20px;
+  position: relative;
+  left: -60px;
+  font-size: 22px;
+}
+
+main br{
+  display: none;
+}
+
+.a-amelogo{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  z-index: 3;
+}
+
+.a-letter {
+  width: 500px;
+  height: 270px;
+  position: absolute;
+  right: 117px;
+  top: 311px;
+}
+.a-letter2 {
+  display: none;
+}
+
+@media screen and (max-width:767px){
+  header {
+    display: none;
+  }
+  .a-amelogo{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+    left: 265px;
+    margin: 20px 0px 36px 0px;
+  }
+  main img{
+    width: 100%;
+    height: 538px;
+  }
+  .a-letter {
+    display: none;
+  }
+  .a-letter2 {
+    width: 479px;
+    height: 208px;
+    position: absolute;
+    right: 252px;
+    top: 323px;
+    display: block;
+  }
+
+  main br {
+    display: block;
+  }
+
+  main p {
+    position: static;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    width: 767px;
+  }
+}
