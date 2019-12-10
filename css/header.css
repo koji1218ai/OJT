@@ -27,7 +27,6 @@ main{
 
 .a-main {
   width: 100%;
-  /* position: relative; */
 }
 
 main p {
@@ -77,6 +76,7 @@ main br{
     border-radius: 50%;
     position: relative;
     left: 265px;
+    top: 0px;
     margin: 20px 0px 36px 0px;
   }
   main img{
