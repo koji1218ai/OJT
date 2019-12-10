@@ -21,10 +21,13 @@ header .a-menu {
 }
 
 
-
-main img{
-  width: 100%;
+main{
   position: relative;
+}
+
+.a-main {
+  width: 100%;
+  /* position: relative; */
 }
 
 main p {
@@ -43,8 +46,8 @@ main br{
   height: 240px;
   border-radius: 50%;
   position: absolute;
-  top: 12px;
-  left: 46px;
+  top: -118px;
+  left: -60px;
   z-index: 3;
 }
 
@@ -52,8 +55,8 @@ main br{
   width: 500px;
   height: 270px;
   position: absolute;
-  right: 53px;
-  top: 311px;
+  right: -62px;
+  top: 184px;
 }
 .a-letter2 {
   display: none;
