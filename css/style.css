@@ -2,13 +2,11 @@
 
 body {
   width: 1152px;
-  height: 100vh;
   margin: 0 auto;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
-  background-color: pink;
-  height: 100vh;
+  
 }
