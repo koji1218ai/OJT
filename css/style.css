@@ -1,12 +1,24 @@
 @charset "UTF-8";
 
 body {
+  /* width: 100%; */
   width: 1152px;
   margin: 0 auto;
+  font-family: sans-serif;
+  /* background: rgb(255, 255, 255); */
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+<<<<<<< HEAD
   
+=======
+}
+
+@media screen and (max-width:767px){
+  .container {
+    width: 100%;
+  }
+>>>>>>> master
 }
