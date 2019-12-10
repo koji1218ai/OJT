@@ -11,14 +11,11 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-<<<<<<< HEAD
   
-=======
 }
 
 @media screen and (max-width:767px){
   .container {
     width: 100%;
   }
->>>>>>> master
 }
