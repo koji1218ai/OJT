@@ -9,9 +9,17 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  
 }
 
+
+@media screen and (max-width:1151px){
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 80%;
+  }
+}
 @media screen and (max-width:767px){
   body {
     width: 100%;
