@@ -48,7 +48,7 @@ main br{
   height: 240px;
   border-radius: 50%;
   position: absolute;
-  top: -118px;
+  top: -68px;
   left: -60px;
   z-index: 3;
 }
@@ -58,7 +58,7 @@ main br{
   height: 270px;
   position: absolute;
   right: -62px;
-  top: 183px;
+  top: 50.5%;
 }
 .a-letter2 {
   display: none;
@@ -120,6 +120,9 @@ main br{
   }
   header nav {
     width: 36%;
+  }
+  .a-letter {
+    top: 46.5%;
   }
 }
 @media screen and (max-width:767px){
