@@ -9,6 +9,7 @@ $(function(){
 
 $(".js-hamburger").on("click", function() {
   $(this).toggleClass("on");
+  $('.a-menu').toggleClass("in", 1000);
 })
 
 });
