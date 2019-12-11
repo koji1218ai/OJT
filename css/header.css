@@ -66,11 +66,10 @@ main br{
 
 /* ハンバーガー */
 .hamburger {
-  /* display: none; */
+  display: none;
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
-  cursor: pointer;
 }
 
 .hamburger span:after,
@@ -124,17 +123,34 @@ main br{
   }
 }
 @media screen and (max-width:767px){
-
-  /* .hamburger {
+.a-menuBox{
+  position: relative;
+}
+  .hamburger {
     display: block;
-    width: 28px;
-    height: 30px;
-    margin: 30px auto 10px;
+    position: absolute;
+    top: 90px;
+    right: 12%;
     cursor: pointer;
+  }
+
+  .a-hum{
     position: relative;
-    top: 175px;
-    right: -34%;
-  } */
+  }
+  .a-menu{
+    position: absolute;
+    left: 82%;
+    top: 142px;
+    display: none;
+  }
+
+  .a-menu li {
+    margin-top: 15px;
+  }
+
+  .in{
+    display: block;
+  }
 
   header {
     display: none;
