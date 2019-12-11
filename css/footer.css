@@ -20,7 +20,7 @@
 .y-item {
   width: 30%;
   height: 400px;
-  margin-right: 45px;
+  margin-right: 4%;
   margin-bottom: 50px;
   transition-duration: 0.1s;
 }
@@ -75,7 +75,6 @@ footer p {
   text-align: center;
 }
 
-
 @media screen and (max-width: 767px) {
   .y-heading {
     font-size: 60px;
@@ -105,4 +104,14 @@ footer p {
     width: 100%;
   }
   
+}
+
+@media screen and (max-width: 500px){
+.y-item img {
+    width: 100%;
+    height: 273px;
+}
+.y-item {
+  height: 470px;
+}
 }
