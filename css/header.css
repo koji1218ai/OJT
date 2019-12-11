@@ -10,16 +10,18 @@ header{
 }
 
 header nav{
-  width: 31%;
+  width: 32%;
 }
 
 header .a-menu {
   display: flex;
   justify-content: space-around;
-  margin-right: 43px;
+  margin-right: 20%;
   font-size: 15px;
 }
-
+header li{
+  margin-left: 5%;
+}
 
 main{
   position: relative;
@@ -67,6 +69,9 @@ main br{
   main p {
     margin-top: 38px;
   }
+  header nav {
+    width: 36%;
+}
 }
 @media screen and (max-width:767px){
 
@@ -75,6 +80,7 @@ main br{
   }
   main{
     width: 100%;
+    position: relative;
   }
 
   .a-amelogo{
@@ -82,8 +88,8 @@ main br{
     height: 240px;
     border-radius: 50%;
     position: relative;
-    left: 265px;
-    top: 0px;
+    left: 35%;
+    top: 0%;
     margin: 20px 0px 36px 0px;
   }
   main img{
@@ -94,11 +100,11 @@ main br{
     display: none;
   }
   .a-letter2 {
-    width: 479px;
-    height: 208px;
+    width: 60%;
+    height: 20%;
     position: absolute;
-    right: 252px;
-    top: 323px;
+    right: 35%;
+    top: 38%;
     display: block;
   }
 
@@ -112,6 +118,11 @@ main br{
     line-height: 50px;
     text-align: center;
     margin-top: 30px;
-    width: 767px;
+    width: 100%;
   }
+}
+
+@media screen and (max-width: 500px){
+.a-amelogo {
+    left: 26%;
 }
