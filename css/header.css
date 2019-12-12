@@ -26,7 +26,6 @@ main{
   position: relative;
 }
 
-/* ここから */
 .images {
   position: relative;
 }
@@ -35,6 +34,8 @@ main{
 .a-main3 {
   width: 100%;
   height: 402px;
+  /* ここ！ */
+  object-fit: cover;
 }
 .a-main2 {
   position: absolute;
@@ -46,7 +47,6 @@ main{
   top: 0;
   right: 0;
 }
-/* ここまで */
 
 main p {
   top: 20px;
@@ -64,7 +64,8 @@ main br{
   height: 240px;
   border-radius: 50%;
   position: absolute;
-  top: -68px;
+  /* ここ！ */
+  top: -115px;
   left: -60px;
   z-index: 3;
 }
@@ -74,13 +75,19 @@ main br{
   height: 270px;
   position: absolute;
   right: -62px;
-  top: 50.5%;
+  /* ここ！ */
+  top: 43%;
 }
 .a-letter2 {
   display: none;
 }
 
 /* ハンバーガー */
+
+/* ここ！ */
+main .a-menu li {
+  display: none;
+}
 .hamburger {
   display: none;
   width: 28px;
@@ -138,7 +145,8 @@ main br{
     width: 36%;
   }
   .a-letter {
-    top: 46.5%;
+    /* ここ！ */
+    top: 39.5%;
   }
 }
 @media screen and (max-width:767px){
@@ -151,6 +159,11 @@ main br{
     top: 90px;
     right: 12%;
     cursor: pointer;
+  }
+
+  /* ここ！ */
+  main .a-menu li {
+    display: block;
   }
 
   .a-hum{
